@@ -1,24 +1,24 @@
 import React, { useEffect } from "react";
 import { Form, Input, Button, message } from "antd";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Divider from "../../components/Divider";
-import { LoginUser } from "../../apicalls/users";
+import { RegisterUser } from "../../apicalls/users";
 import { useDispatch, useSelector } from "react-redux";
 import { SetButtonLoading } from "../../redux/loadersSlice";
 import { getAntdFormInputRules } from "../../utils/helpers";
 
-function Login() {
+function Register() {
+  const navigate = useNavigate();
   const { buttonLoading } = useSelector((state) => state.loaders);
   const dispatch = useDispatch();
   const onFinish = async (values) => {
     try {
       dispatch(SetButtonLoading(true));
-      const response = await LoginUser(values);
+      const response = await RegisterUser(values);
       dispatch(SetButtonLoading(false));
       if (response.success) {
-        localStorage.setItem("token", response.data);
         message.success(response.message);
-        window.location.href = "/";
+        navigate("/login");
       } else {
         throw new Error(response.message);
       }
@@ -30,7 +30,7 @@ function Login() {
 
   useEffect(() => {
     if (localStorage.getItem("token")) {
-      window.location.href = "/";
+      navigate("/");
     }
   }, []);
 
@@ -38,20 +38,34 @@ function Login() {
     <div className="grid grid-cols-2">
       <div className="bg-primary h-screen flex flex-col justify-center items-center">
         <div>
-          <h1 className="text-7xl text-white">Work Management tool </h1>
+          <h1 className="text-7xl text-white">Work Management tool</h1>
           <span className=" text-white mt-5">
-              INFO 6150 Web Design Project - &copy; Group 20
+          INFO 6150 Web Design Project - &copy; Group 20
           </span>
         </div>
       </div>
       <div className="flex justify-center items-center">
         <div className="w-[420px]">
-          <h1 className="text-2xl text-gray-700">LOGIN TO YOUR ACCOUNT</h1>
+          <h1 className="text-2xl text-gray-700 uppercase">
+            Lets get you started
+          </h1>
           <Divider />
           <Form layout="vertical" onFinish={onFinish}>
             <Form.Item
-              label="Email"
-              name="email"
+              label="First Name"
+              name="firstName"
+              rules={getAntdFormInputRules}
+            >
+              <Input />
+            </Form.Item>
+            <Form.Item
+              label="Last Name"
+              name="lastName"
+              rules={getAntdFormInputRules}
+            >
+              <Input />
+            </Form.Item>
+            <Form.Item label="Email" name="email"
               rules={getAntdFormInputRules}
             >
               <Input />
@@ -70,12 +84,12 @@ function Login() {
               block
               loading={buttonLoading}
             >
-              {buttonLoading ? "Loading" : "Login"}
+              {buttonLoading ? "Loading" : "Register"}
             </Button>
 
             <div className="flex justify-center mt-5">
               <span>
-                Don't have an account? <Link to="/register">Register</Link>
+                Already have an account? <Link to="/login">Login</Link>
               </span>
             </div>
           </Form>
@@ -85,4 +99,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Register;
