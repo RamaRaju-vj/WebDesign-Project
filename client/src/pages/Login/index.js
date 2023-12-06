@@ -40,7 +40,7 @@ function Login() {
         <div>
           <h1 className="text-7xl text-white">Work Management tool </h1>
           <span className=" text-white mt-5">
-              INFO 6150 Web Design Project - &copy; Group 20
+              INFO 6150 Web Design Project - &copy; Group 29
           </span>
         </div>
       </div>
