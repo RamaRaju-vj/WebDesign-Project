@@ -23,3 +23,4 @@ const usersSlice = createSlice({
 export const { SetUser, SetAllUsers , SetNotifications} = usersSlice.actions;
 
 export default usersSlice.reducer;
+
