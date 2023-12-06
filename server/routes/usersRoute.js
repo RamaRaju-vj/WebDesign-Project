@@ -15,7 +15,7 @@ router.post("/register", async (req, res) => {
 
     const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
     if (!passwordRegex.test(req.body.password)) {
-      throw new Error("Invalid password. Password must consist of upper and lower case characters and must be minimum 8 characters.");
+      throw new Error("Invalid password. Password must consist of upper and lower case characters only and must be minimum 8 characters.");
     }
 
     // Check if the user already exists
