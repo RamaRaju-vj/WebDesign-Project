@@ -6,6 +6,8 @@ import { RegisterUser } from "../../apicalls/users";
 import { useDispatch, useSelector } from "react-redux";
 import { SetButtonLoading } from "../../redux/loadersSlice";
 import { getAntdFormInputRules } from "../../utils/helpers";
+import "./RegisterStyles.css";
+
 
 function Register() {
   const navigate = useNavigate();
