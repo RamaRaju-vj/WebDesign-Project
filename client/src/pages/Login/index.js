@@ -40,7 +40,7 @@ function Login() {
     <div className="grid grid-cols-2">
       <div className="bg-primary h-screen flex flex-col justify-center items-center">
         <div>
-          <h1 className="text-7xl text-white">Work Management Tool </h1>
+          <h1 className="text-white">Work Management Tool </h1>
           <span className=" text-white mt-5">
               INFO 6150 Web Design Project - &copy; Group 29
           </span>
