@@ -2,6 +2,9 @@
 body {
     font-size: 14px;
   }
+  .grey{
+    height: 50%;
+}
   
   .grid {
     grid-template-columns: 1fr; /* Display one column on small screens */
