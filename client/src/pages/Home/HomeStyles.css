@@ -23,5 +23,8 @@ body {
     .grid {
       grid-template-columns: repeat(4, 1fr); /* Display four columns on desktops */
     }
+    .grey{
+        height: 50%;
+    }
   }
   

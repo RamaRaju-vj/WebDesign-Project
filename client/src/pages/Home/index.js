@@ -34,7 +34,7 @@ function Home() {
     getData();
   }, []);
   return (
-    <div>
+    <div className="grey">
       <h1 className="text-primary text-xl">
         Welcome, {user?.firstName} {user?.lastName} , Work Management tool 
       </h1>
