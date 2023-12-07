@@ -52,81 +52,130 @@ i{
 
 
 /* iPhone SE */
+/* iPhone SE */
 @media (max-width: 320px) {
   /* Styles specific to iPhone SE */
+  body {
+    font-size: 14px;
+  }
 }
 
 /* iPhone XR */
 @media (device-width: 414px) and (device-height: 896px) {
   /* Styles specific to iPhone XR */
+  body {
+    font-size: 16px;
+  }
 }
 
 /* iPhone 12 Pro */
 @media (device-width: 390px) and (device-height: 844px) {
   /* Styles specific to iPhone 12 Pro */
+  body {
+    font-size: 18px;
+  }
 }
 
 /* iPhone 14 Pro Max */
 @media (device-width: 428px) and (device-height: 926px) {
   /* Styles specific to iPhone 14 Pro Max */
+  body {
+    font-size: 20px;
+  }
 }
 
 /* Pixel 7 */
 @media (device-width: 411px) and (device-height: 823px) {
   /* Styles specific to Pixel 7 */
+  body {
+    font-size: 16px;
+  }
 }
 
 /* Samsung Galaxy S8+ */
 @media (device-width: 412px) and (device-height: 846px) {
   /* Styles specific to Samsung Galaxy S8+ */
+  body {
+    font-size: 16px;
+  }
 }
 
 /* Samsung Galaxy S20 Ultra */
 @media (device-width: 1440px) and (device-height: 3200px) {
   /* Styles specific to Samsung Galaxy S20 Ultra */
+  body {
+    font-size: 24px;
+  }
 }
 
 /* iPad Mini */
 @media (device-width: 768px) and (device-height: 1024px) {
   /* Styles specific to iPad Mini */
+  body {
+    font-size: 18px;
+  }
 }
 
 /* iPad Air */
 @media (device-width: 834px) and (device-height: 1112px) {
   /* Styles specific to iPad Air */
+  body {
+    font-size: 20px;
+  }
 }
 
 /* iPad Pro */
 @media (device-width: 1024px) and (device-height: 1366px) {
   /* Styles specific to iPad Pro */
+  body {
+    font-size: 22px;
+  }
 }
 
 /* Surface Pro 7 */
 @media (min-width: 1080px) and (min-height: 1920px) {
   /* Styles specific to Surface Pro 7 */
+  body {
+    font-size: 22px;
+  }
 }
 
 /* Surface Duo */
 @media (device-width: 540px) and (device-height: 1920px) {
   /* Styles specific to Surface Duo */
+  body {
+    font-size: 18px;
+  }
 }
 
 /* Galaxy Fold */
 @media (device-width: 280px) and (device-height: 653px) {
   /* Styles specific to Galaxy Fold */
+  body {
+    font-size: 14px;
+  }
 }
 
 /* Samsung Galaxy A71 */
 @media (device-width: 393px) and (device-height: 800px) {
   /* Styles specific to Samsung Galaxy A71 */
+  body {
+    font-size: 16px;
+  }
 }
 
 /* Nest Hub */
 @media (device-width: 1280px) and (device-height: 800px) {
   /* Styles specific to Nest Hub */
+  body {
+    font-size: 20px;
+  }
 }
 
 /* Nest Hub Max */
 @media (device-width: 1280px) and (device-height: 800px) {
   /* Styles specific to Nest Hub Max */
+  body {
+    font-size: 22px;
+  }
 }
