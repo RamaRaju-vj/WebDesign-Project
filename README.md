@@ -1,4 +1,11 @@
 # Work Management Web Application
+# INFO 6150: Final Project
+
+## Team Members: 
+* Rama Raju NUID: 002698603
+* Abhishek K NUID: 002246765
+* Surya Saran NUID: 002276101
+* Tejas Vasisht NUID: 002892433
 
 ## Overview
 
