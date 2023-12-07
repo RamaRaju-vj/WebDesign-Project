@@ -6,6 +6,7 @@ import { message } from "antd";
 import { getDateFormat } from "../../utils/helpers";
 import Divider from "../../components/Divider";
 import { useNavigate } from "react-router-dom";
+import "./HomeStyles.css";
 
 function Home() {
   const [projects, setProjects] = useState([]);
@@ -35,7 +36,7 @@ function Home() {
   return (
     <div>
       <h1 className="text-primary text-xl">
-        Heyy {user?.firstName} {user?.lastName} , Work Management tool 
+        Welcome, {user?.firstName} {user?.lastName} , Work Management tool 
       </h1>
 
       <div className="grid grid-cols-4 gap-5 mt-5">

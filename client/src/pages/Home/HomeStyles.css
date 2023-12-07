@@ -1,0 +1,27 @@
+/* Mobile Styles */
+body {
+    font-size: 14px;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr; /* Display one column on small screens */
+  }
+  
+  /* Tablet Styles */
+  @media screen and (min-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* Display two columns on tablets */
+    }
+  }
+  
+  /* Desktop Styles */
+  @media screen and (min-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(4, 1fr); /* Display four columns on desktops */
+    }
+  }
+  
