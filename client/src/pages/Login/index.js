@@ -6,6 +6,8 @@ import { LoginUser } from "../../apicalls/users";
 import { useDispatch, useSelector } from "react-redux";
 import { SetButtonLoading } from "../../redux/loadersSlice";
 import { getAntdFormInputRules } from "../../utils/helpers";
+import "./LoginStyles.css";
+
 
 function Login() {
   const { buttonLoading } = useSelector((state) => state.loaders);
