@@ -12,6 +12,10 @@ body {
   
   /* Tablet Styles */
   @media screen and (min-width: 600px) {
+   .grey{
+        height: 50%;
+    }
+    
     body {
       font-size: 16px;
     }
