@@ -137,6 +137,7 @@ Session Management
 ●	It extracts a JWT from the Authorization header of incoming requests, verifies the token using a secret key stored in environment variables, and sets the user's ID in the request body. 
 ●	The middleware function uses a try...catch block for error handling, allowing requests with valid tokens to proceed and responding with an error message if the token is invalid or expired. 
 ●	This implementation ensures secure user authentication in an Express.js application.
+```
 
 #Project Screenshots
 
