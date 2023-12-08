@@ -36,9 +36,9 @@ This is a work task management web application built using the MERN stack (Mongo
   - WebSocket for real-time communication
  
 
-   
+ ```  
 npx create-react-app client
-
+```
   Client folder - Frontend
   Server folder- Backend
 ```
@@ -91,6 +91,7 @@ For Login form we used onFinish antd component instead  of onChange method.
 Config folder :
  dbConfig.js - has Mongodb  Atlas connection defined in dbConfig.js and a variable ConnectDB is created in Backend/server.js to connect to mongodb local host.
 
+```
 
 TECHSTACK Used
 ●	HTML5 - Used for information page as part of Assignment-6.
