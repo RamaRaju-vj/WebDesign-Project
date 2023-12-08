@@ -91,7 +91,7 @@ For Login form we used onFinish antd component instead  of onChange method.
 
 Config folder :
  dbConfig.js - has Mongodb  Atlas connection defined in dbConfig.js and a variable ConnectDB is created in Backend/server.js to connect to mongodb local host.
-```
+
 
 TECHSTACK Used
 ●	HTML5 - Used for information page as part of Assignment-6.
