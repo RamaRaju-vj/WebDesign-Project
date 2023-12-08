@@ -103,8 +103,6 @@ TECHSTACK Used
 ●	EXPRESS JS - API’s.
 ●	RENDER - To host the website.
  
-
- 
 Registration Page & Login Page 
 ●	New Employee can register by providing details.
 ●	Email Id and Password validations are used.
