@@ -36,10 +36,9 @@ This is a work task management web application built using the MERN stack (Mongo
   - WebSocket for real-time communication
  
 
-
-    ```
+   
 npx create-react-app client
-```
+
   Client folder - Frontend
   Server folder- Backend
 ```
