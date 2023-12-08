@@ -158,7 +158,7 @@ Session Management
 <img width="554" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/70e7e9e9-d52c-4c59-a4a3-f33b09b3fb4a">
 
 
-#Assignment 6 - using bootstarp and html
+## Assignment 6 - using bootstarp and html 
 
 <img width="554" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/2622cb90-4cbc-40b3-bd14-d4de79fa452b">
 
