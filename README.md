@@ -137,7 +137,7 @@ Session Management
 ●	This implementation ensures secure user authentication in an Express.js application.
 ```
 
-#Project Screenshots
+## Project Screenshots
 
 <img width="349" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/d35b3840-1fd0-4759-a03f-277d5374dfed">
 
