@@ -95,7 +95,7 @@ Config folder :
 
 TECHSTACK Used
 ●	HTML5 - Used for information page as part of Assignment-6.
-●	BOOTSTRAP & TAILWIND CSS - Used for Grid and Flex Layouts.
+●	BOOTSTRAP & TAILWIND CSS - Used for Grid and Flex Layouts & as part of Assignment-6.
 ●	CSS3 - Used for styling purpose.
 ●	REACT - Used in complete project. ● JAVASCRIPT - Build the code using JS ● NODE JS - Used in the project setup.
 ●	MONGODB - The database.
@@ -156,6 +156,17 @@ Session Management
 
 
 <img width="554" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/70e7e9e9-d52c-4c59-a4a3-f33b09b3fb4a">
+
+
+#Assignment 6 - using bootstarp and html
+
+<img width="554" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/2622cb90-4cbc-40b3-bd14-d4de79fa452b">
+
+<img width="554" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/737ee9ad-5b68-4128-be4f-54ade4fe586e">
+
+
+
+
 
 
 
