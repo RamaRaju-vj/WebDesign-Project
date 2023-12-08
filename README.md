@@ -118,8 +118,8 @@ Tasks Dashboard
 ●	Action row is visible only to the admin accounts not to a general employee. Admins can delete or edit the tasks.
 ●	Also admin can upload an image in the edit section that can be viewed by the employee.
 Members Page
-●	Owner comes into the play by creating the main project. 
-●	Owner can assign an employee to admin and give privileges to admin to edit or delete the tasks.
+●	Owner/Admin comes into the play by creating the main project. 
+●	Owner/Admin can assign an employee to admin and give privileges to admin to edit or delete the tasks.
 ●	List of all members are displayed under members section.
  
 Hosting
@@ -164,9 +164,10 @@ Session Management
 
 <img width="554" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/737ee9ad-5b68-4128-be4f-54ade4fe586e">
 
+## Project Architecture
+<img width="554" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/781287dc-78e7-4e1b-b5d4-9a1d21ce712e">
 
-
-
+<img width="554" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/d1786430-4e16-4bb0-848e-78d8a9f1cf5a">
 
 
 
