@@ -91,7 +91,7 @@ For Login form we used onFinish antd component instead  of onChange method.
 
 Config folder :
  dbConfig.js - has Mongodb  Atlas connection defined in dbConfig.js and a variable ConnectDB is created in Backend/server.js to connect to mongodb local host.
-
+```
 
 TECHSTACK Used
 ●	HTML5 - Used for information page as part of Assignment-6.
@@ -103,10 +103,7 @@ TECHSTACK Used
 ●	EXPRESS JS - API’s.
 ●	RENDER - To host the website.
  
-Introduction
-Our project is based on a Work Management Tool that is widely used in corporate companies, especially in the software industry. It can be used both by the administrator and the employee. From the admin perspective, they can assign new projects to an employee, and they also have access to change the project's working status. They can even designate any member of that project as an admin. Tasks can be given to each individual. From an employee perspective, they can only deal with the project notification bar and also update the status of their individual tasks. Our website also contains other features like notifications, error messages, and a registration page.
-Project Structure
-Client Structure - All files related to frontend 	Server Structure - All files related to backend and is written in Client folder and it consists of 	also databases is written in Server folder. components.
+
  
 Registration Page & Login Page 
 ●	New Employee can register by providing details.
@@ -140,6 +137,18 @@ Session Management
 ●	It extracts a JWT from the Authorization header of incoming requests, verifies the token using a secret key stored in environment variables, and sets the user's ID in the request body. 
 ●	The middleware function uses a try...catch block for error handling, allowing requests with valid tokens to proceed and responding with an error message if the token is invalid or expired. 
 ●	This implementation ensures secure user authentication in an Express.js application.
-Thank you
-![image](https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/80732a8f-a11a-4f77-bc06-a02815e892eb)
+
+#Project Screenshots
+
+<img width="349" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/d35b3840-1fd0-4759-a03f-277d5374dfed">
+<img width="644" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/b97ef007-e37b-444d-acef-f7a5f0bc64b6">
+<img width="709" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/c75b7f15-9ef7-44b0-b79e-aa0e62ee8aa0">
+<img width="554" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/52d1b7da-c9b0-436b-bdd3-fbd5bf03b251">
+<img width="476" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/54165665-60a1-4141-a2bb-d8fe317676f8">
+<img width="554" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/70e7e9e9-d52c-4c59-a4a3-f33b09b3fb4a">
+
+
+
+
+
 
