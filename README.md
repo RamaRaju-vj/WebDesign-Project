@@ -141,10 +141,21 @@ Session Management
 #Project Screenshots
 
 <img width="349" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/d35b3840-1fd0-4759-a03f-277d5374dfed">
+
+
 <img width="644" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/b97ef007-e37b-444d-acef-f7a5f0bc64b6">
+
+
+
 <img width="709" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/c75b7f15-9ef7-44b0-b79e-aa0e62ee8aa0">
+
+
 <img width="554" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/52d1b7da-c9b0-436b-bdd3-fbd5bf03b251">
+
+
 <img width="476" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/54165665-60a1-4141-a2bb-d8fe317676f8">
+
+
 <img width="554" alt="image" src="https://github.com/RamaRaju-vj/WebDesign-Project/assets/144737522/70e7e9e9-d52c-4c59-a4a3-f33b09b3fb4a">
 
 
